@@ -13,6 +13,10 @@ from .forms import EventForm
 def index(request):
     return HttpResponse('hello')
 
+class HockeyView(generic.ListView):
+    model = Event
+    template_name = 'cal/hockey.html'
+
 class CalendarView(generic.ListView):
     model = Event
     template_name = 'cal/calendar.html'

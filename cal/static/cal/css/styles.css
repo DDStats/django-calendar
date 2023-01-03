@@ -40,16 +40,19 @@ body {
 .title {
   text-align: center;
   margin: 10px;
+  color: black;
 }
 
 .calendar {
   width: 98%;
   margin: auto;
   font-size: 13px;
+  color: white;
+  background: black;
 }
 
 .calendar tr, .calendar td {
-  border: 1px solid black;
+  border: 1px solid gold;
 }
 
 .calendar th {
@@ -78,5 +81,5 @@ ul {
 }
 
 a {
-  color: #17a2b8;
+  color: #C5B4E3;
 }
